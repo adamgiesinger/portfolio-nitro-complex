@@ -1,0 +1,23 @@
+$title: bold 70px "Source Sans Pro",
+Arial,
+sans-serif;
+$regular: 17px "Source Sans Pro",
+Arial,
+sans-serif;
+
+.a-section-title {
+    display: inline-block;
+    h2 {
+        font: $title;
+        margin: 0;
+        padding: 0;
+    }
+    h3 {
+        padding: 0;
+        margin: 10px 0 0;
+        font: $regular;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        text-align: right;
+    }
+}

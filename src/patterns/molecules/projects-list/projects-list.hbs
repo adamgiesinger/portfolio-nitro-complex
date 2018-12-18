@@ -1,0 +1,5 @@
+<div class="m-projects-list" data-t-name="ProjectsList">
+    {{#each projects}}
+    {{pattern name="project" project-name=this.project-name project-languages=this.languages project-link=project-link}}
+    {{/each}}
+</div>

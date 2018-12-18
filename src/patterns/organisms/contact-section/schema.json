@@ -1,0 +1,10 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"title": "contact-section",
+	"description": "A contact-section organism",
+	"type": "object",
+	"properties": {
+		
+	},
+	"dependencies": {}
+}

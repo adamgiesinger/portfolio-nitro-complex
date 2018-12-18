@@ -1,0 +1,16 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"title": "section-title",
+	"description": "A section-title atom",
+	"type": "object",
+	"properties": {
+		"title": {
+			"type": "string",
+			"description": "Title displayed as a h2"
+		}, "subtitle": {
+			"type": "string",
+			"description": "Subtitle displayed as a h3"
+		}
+	},
+	"dependencies": {}
+}

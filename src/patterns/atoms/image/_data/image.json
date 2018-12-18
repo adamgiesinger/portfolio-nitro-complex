@@ -1,0 +1,19 @@
+{
+	"modifier": "",
+	"srcset": {
+		"renditions": [
+			{
+				"width": "580",
+				"src": "/content/size/16x9-624x350.png"
+			},
+			{
+				"width": "1200",
+				"src": "/content/size/16x9-1296x728.png"
+			}
+		],
+		"fallback": {
+			"src": "/content/size/16x9-136x76.png"
+		}
+	},
+	"alt": "Alt-Attribute"
+}

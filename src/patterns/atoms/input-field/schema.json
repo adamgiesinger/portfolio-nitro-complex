@@ -1,0 +1,25 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"title": "input-field",
+	"description": "A input-field atom",
+	"type": "object",
+	"properties": {
+		"input-type": {
+			"enum": ["input", "textfield"],
+			"description": "Type of input,"
+		}, "input-name": {
+			"type": "string",
+			"description": "name attribute of input field"
+		}, "input-content": {
+			"enum": ["button", "checkbox", "color", "date", "datetime-local", "email", "file", "hidden", "image", "month", "number", 
+				"password", "radio", "range", "reset", "search", "submit", "tel", "text", "time", "url", "week"],
+			"description": "type attribute of input field"
+		}, "input-placeholder": {
+			"type": "string",
+			"description": "Placeholder in the input field"
+		}
+	},
+	"dependencies": {
+		
+	}
+}

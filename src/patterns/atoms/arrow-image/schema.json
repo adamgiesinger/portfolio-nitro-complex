@@ -1,0 +1,9 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"title": "arrow-image",
+	"description": "A arrow-image atom",
+	"type": "object",
+	"properties": {
+	},
+	"dependencies": {}
+}

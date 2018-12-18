@@ -1,0 +1,34 @@
+{
+    "projects": [
+        {
+            "project-name": "OpenStream API",
+            "languages": "PHP",
+            "project-link": "https://github.com/adamgiesinger/movie-scraper-backend"
+        },
+        {
+            "project-name": "OpenStream Example",
+            "languages": "JavaScript, PHP",
+            "project-link": "https://github.com/adamgiesinger/movie-scraper-backend/tree/master/example"
+        },
+        {
+            "project-name": "OpenStream iOS",
+            "languages": "Swift",
+            "project-link": "https://github.com/adamgiesinger/movie-scraper"
+        },
+        {
+            "project-name": "Face Recognition",
+            "languages": "Python",
+            "project-link": "https://github.com/adamgiesinger/face_recognition"
+        },
+        {
+            "project-name": "Spotify Downloader v1",
+            "languages": "Kotlin, Python",
+            "project-link": "https://github.com/adamgiesinger/spotify-downloader"
+        },
+        {
+            "project-name": "Spotify Downloader v2",
+            "languages": "JavaScript, Python",
+            "project-link": "https://github.com/adamgiesinger/electron-spotdl"
+        }
+    ]
+}

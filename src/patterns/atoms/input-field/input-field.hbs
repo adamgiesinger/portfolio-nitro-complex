@@ -1,0 +1,9 @@
+<div class="a-input-field" data-t-name="InputField">
+    <label for="{{input-name}}"></label>
+    {{#eq input-type "input"}}
+        <input class="a-input-field__input" type="{{input-content}}" name="{{input-name}}" id="{{input-name}}" placeholder="{{input-placeholder}}">
+    {{/eq}}
+    {{#eq input-type "textfield"}}
+        <textarea class="a-input-field__input" name="{{input-name}}" id="{{input-name}}" placeholder="{{input-placeholder}}"></textarea>
+    {{/eq}}
+</div>

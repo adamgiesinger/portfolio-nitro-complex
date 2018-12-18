@@ -1,0 +1,11 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"title": "contact-form",
+	"description": "A contact-form molecule",
+	"type": "object",
+	"properties": {
+	},
+	"dependencies": {
+		
+	}
+}

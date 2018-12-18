@@ -1,0 +1,9 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"title": "project-title",
+	"description": "A project-title atom",
+	"type": "object",
+	"properties": {
+	},
+	"dependencies": {}
+}
