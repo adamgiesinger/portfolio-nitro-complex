@@ -33,9 +33,11 @@ import './patterns/atoms/lottie';
 import './patterns/atoms/stage';
 import './patterns/molecules/example';
 import './patterns/molecules/project';
+import './patterns/molecules/about-me-text';
 import './patterns/molecules/projects-list';
 import './patterns/organisms/contact-section';
 import './patterns/organisms/projects-section';
+import './patterns/organisms/about-section';
 
 hot(module);
 
