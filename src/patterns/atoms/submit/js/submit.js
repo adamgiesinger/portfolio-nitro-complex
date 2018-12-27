@@ -3,6 +3,8 @@
 import * as T from 'terrific';
 import $ from 'jquery';
 
+// Review: not used, delete file
+
 /**
  * submit module implementation.
  *

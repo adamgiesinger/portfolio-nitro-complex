@@ -1,4 +1,5 @@
 {
+	// Review: Try to handle no modifier in HBS instead passing empty strings => "a-comp a-comp--"
 	"modifier": "",
 	"content": "Box Content"
 }

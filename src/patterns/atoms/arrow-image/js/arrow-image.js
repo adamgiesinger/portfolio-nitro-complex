@@ -3,6 +3,8 @@
 import * as T from 'terrific';
 import $ from 'jquery';
 
+// Review: Component not used, remove
+
 /**
  * arrow-image module implementation.
  *

@@ -3,6 +3,8 @@
 import * as T from 'terrific';
 import $ from 'jquery';
 
+// Review: delete if not needed
+
 /**
  * projects-list module implementation.
  *

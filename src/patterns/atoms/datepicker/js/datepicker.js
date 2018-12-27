@@ -13,6 +13,7 @@ class Datepicker extends GondelBaseComponent {
 	}
 
 	initializeFlatpickr() {
+		// Review: props for this!
 		import(/* webpackChunkName: "flatpickr" */ './flatpickr').then((flatpickr) => {
 			flatpickr.default(this._ctx.querySelector(selectors.input));
 		});

@@ -4,6 +4,7 @@
 	"description": "A section-title atom",
 	"type": "object",
 	"properties": {
+		// Review: respect correct JSON formatting
 		"title": {
 			"type": "string",
 			"description": "Title displayed as a h2"
