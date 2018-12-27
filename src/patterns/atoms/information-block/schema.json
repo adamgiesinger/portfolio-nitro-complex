@@ -4,6 +4,7 @@
 	"description": "A information-block atom",
 	"type": "object",
 	"properties": {
+		// Review: Missing Schema
 	},
 	"dependencies": {}
 }

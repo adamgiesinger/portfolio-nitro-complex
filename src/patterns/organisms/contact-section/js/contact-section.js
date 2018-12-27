@@ -3,6 +3,8 @@
 import * as T from 'terrific';
 import $ from 'jquery';
 
+// Review: delete if not needed
+
 /**
  * contact-section module implementation.
  *

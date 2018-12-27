@@ -17,6 +17,7 @@ class Lottie extends GondelBaseComponent {
 	initializeAnimation() {
 		const jsonPath = this._ctx.dataset.jsonPath;
 
+		// Review: cool implementation & clean :D
 		import(/* webpackChunkName: "lottie" */ 'lottie-web').then((lottie) => {
 			this.animation = lottie.loadAnimation({
 				container: this._ctx,

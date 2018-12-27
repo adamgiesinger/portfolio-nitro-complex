@@ -3,6 +3,8 @@
 import * as T from 'terrific';
 import $ from 'jquery';
 
+// Review: not needed, delete file
+
 /**
  * about-me-text module implementation.
  *

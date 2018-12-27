@@ -23,6 +23,8 @@
 	}
 }
 
+// Review: suggest to move mixins to global assets or at least to the top
+
 // inline mixins
 @mixin box-mixin() {
 	display: block;

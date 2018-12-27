@@ -9,6 +9,7 @@ $checkbox-color: $color-gray-5;
 	color: inherit;
 	position: relative;
 
+	// Review: no tag styling
 	input[type="checkbox"] {
 		// Checkbox Replacement: Hide default
 		@include input-visually-hidden();

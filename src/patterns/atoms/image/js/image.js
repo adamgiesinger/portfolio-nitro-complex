@@ -18,6 +18,7 @@ const stateClasses = {
 	loaded: 'state-a-image--loaded',
 };
 
+// Review: Why using object assign instead of spread operator?
 Object.assign(lazySizes.cfg, {
 	preloadAfterLoad: false,
 	loadMode: 1,

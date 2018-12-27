@@ -3,6 +3,8 @@
 import * as T from 'terrific';
 import $ from 'jquery';
 
+// Review: if not needed => delete
+
 /**
  * contact-form module implementation.
  *

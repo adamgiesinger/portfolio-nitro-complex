@@ -34,6 +34,7 @@ const initPicker = (element) => {
 	if (locale) {
 		options.locale = locale;
 	}
+	// Review: scope spacing for better readability
 	if (altFormat) {
 		options.altInput = true;
 		options.altFormat = altFormat;

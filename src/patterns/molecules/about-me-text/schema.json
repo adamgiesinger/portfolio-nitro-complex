@@ -4,6 +4,7 @@
 	"description": "A about-me-text molecule",
 	"type": "object",
 	"properties": {
+		// Review: missing properties
 	},
 	"dependencies": {}
 }
