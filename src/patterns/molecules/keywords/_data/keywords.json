@@ -1,0 +1,9 @@
+{
+	"keywords": ["Keyword Number 1", "Keyword Number 2", "Keyword Number 3"],
+	"links": [
+		{
+			"text": "Learn more",
+			"link": "#sectionAbout"
+		}
+	]
+}

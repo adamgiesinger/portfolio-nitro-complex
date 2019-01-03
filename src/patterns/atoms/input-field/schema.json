@@ -11,7 +11,7 @@
 			"type": "string",
 			"description": "name attribute of input field"
 		}, "input-content": {
-			"enum": ["button", "checkbox", "color", "date", "datetime-local", "email", "file", "hidden", "image", "month", "number", 
+			"enum": ["button", "checkbox", "color", "date", "datetime-local", "email", "file", "hidden", "image", "month", "number",
 				"password", "radio", "range", "reset", "search", "submit", "tel", "text", "time", "url", "week"],
 			"description": "type attribute of input field"
 		}, "input-placeholder": {
@@ -20,6 +20,6 @@
 		}
 	},
 	"dependencies": {
-		
+
 	}
 }

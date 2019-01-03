@@ -3,7 +3,6 @@
 	"title": "information-block",
 	"description": "A information-block atom",
 	"type": "object",
-	"properties": {
-	},
+	"properties": {},
 	"dependencies": {}
 }

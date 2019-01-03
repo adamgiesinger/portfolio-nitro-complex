@@ -3,9 +3,6 @@
 	"title": "contact-form",
 	"description": "A contact-form molecule",
 	"type": "object",
-	"properties": {
-	},
-	"dependencies": {
-		
-	}
+	"properties": {},
+	"dependencies": {}
 }

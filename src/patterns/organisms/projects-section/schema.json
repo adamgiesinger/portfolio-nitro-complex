@@ -3,7 +3,6 @@
 	"title": "projects-section",
 	"description": "A projects-section organism",
 	"type": "object",
-	"properties": {
-	},
+	"properties": {},
 	"dependencies": {}
 }

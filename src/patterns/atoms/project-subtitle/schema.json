@@ -4,6 +4,10 @@
 	"description": "A project-subtitle atom",
 	"type": "object",
 	"properties": {
+		"project-languages": {
+			"type": "string",
+			"description": "List of all languages used in the project"
+		}
 	},
 	"dependencies": {}
 }

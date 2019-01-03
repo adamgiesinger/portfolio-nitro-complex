@@ -1,8 +1,10 @@
+$black: #000000;
+
 .a-project-title {
-    h3 {
+    &__h3 {
         padding: 0;
         margin: 0;
         font-weight: 600;
-        color: black;
+        color: $black;
     }
 }

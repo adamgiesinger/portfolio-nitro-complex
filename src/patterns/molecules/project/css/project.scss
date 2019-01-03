@@ -1,19 +1,24 @@
 $regular: 17px "Source Sans Pro",
 Arial,
 sans-serif;
-$white: #FFFFFF;
+$white: #ffffff;
 $whiteHover: darken($white, 2%);
-
 .m-project {
-    font: $regular;
-    padding: 20px;
-    margin: 30px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: $white;
-    &:hover {
-        background-color: $whiteHover;
+    &__link {
+        text-decoration: none;
+    }
+
+    &__container {
+        font: $regular;
+        padding: 20px;
+        margin: 30px;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: $white;
+        &:hover {
+            background-color: $whiteHover;
+        }
     }
 }

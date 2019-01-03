@@ -3,7 +3,6 @@
 	"title": "nametag",
 	"description": "A nametag atom",
 	"type": "object",
-	"properties": {
-	},
+	"properties": {},
 	"dependencies": {}
 }

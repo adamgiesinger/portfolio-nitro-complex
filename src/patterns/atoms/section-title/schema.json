@@ -7,7 +7,8 @@
 		"title": {
 			"type": "string",
 			"description": "Title displayed as a h2"
-		}, "subtitle": {
+		},
+		"subtitle": {
 			"type": "string",
 			"description": "Subtitle displayed as a h3"
 		}

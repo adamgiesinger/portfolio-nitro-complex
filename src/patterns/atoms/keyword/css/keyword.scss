@@ -1,0 +1,26 @@
+$black: #000000;
+
+html {
+    scroll-behavior: smooth;}
+
+.a-keyword {
+    color: #777777;
+    &__link {
+        display: inline-block;
+        text-decoration: none;
+        color: $black;
+        &__bar {
+            height: 2px;
+            margin-top: -4px;
+            background: $black;
+            -webkit-transition: width 0.3s ease-in-out;
+            -moz-transition: width 0.3s ease-in-out;
+            -o-transition: width 0.3s ease-in-out;
+            transition: width 0.3s ease-in-out;
+            width: 0;
+        }
+        &:hover>&__bar {
+            width: 100%;
+        }
+    }
+}

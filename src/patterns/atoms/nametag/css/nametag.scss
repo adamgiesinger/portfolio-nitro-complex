@@ -1,13 +1,16 @@
+$title: bold 70px "Source Sans Pro",
+Arial,
+sans-serif;
+$regular: 17px "Source Sans Pro",
+Arial,
+sans-serif;
 .a-nametag {
-    top: 30px;
-    left: 30px;
     position: fixed;
-    font-family: Times, "Times New Roman", serif;
-    font-size: 19px;
-}
-
-@media screen and (max-width: 992px) {
-    .a-nametag {
-        display: none;
+    left: 0;
+    top: 0;
+    margin-left: 14px;
+    margin-top: 14px;
+    &__h1 {
+        font: italic 50px "Source Sans Pro", Arial, sans-serif;
     }
 }

@@ -19,3 +19,14 @@ T.Module.Nametag = T.createModule({
 		resolve();
 	},
 });
+
+window.onscroll = function() {
+	nameScroll();
+};
+
+function nameScroll() {
+	const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+	const name = document.getElementsByClassName('a-nametag__h1')[0];
+
+	name.style.opacity = 1 - scrollTop / 400;
+}

@@ -1,8 +1,10 @@
+$black: #000000;
+
 .a-project-subtitle {
-    span {
+    &__span {
         text-transform: uppercase;
         letter-spacing: 2px;
         font-size: 13px;
-        color: black;
+        color: $black;
     }
 }

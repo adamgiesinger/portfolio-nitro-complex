@@ -1,10 +1,11 @@
-<a href={{project-link}} target="_blank">
-    <div class="m-project" data-t-name="Project">
-        <div class="text">
-            {{pattern name="project-title" project-title=project-name}}
-            {{pattern name="project-subtitle" project-languages=project-languages}}
+<div class="m-project" data-t-name="Project">
+    <a class="m-project__link" href="{{project-link}}" title="Go to the '{{project-name}}' project" target="_blank">
+        <div class="m-project__container">
+            <div class="text">
+                {{pattern name="project-title" project-title=project-name}}
+                {{pattern name="project-subtitle" project-languages=project-languages}}
+            </div>
+            {{pattern name="arrow-image"}}
         </div>
-        {{pattern name="arrow-image"}}
-
-    </div>
-</a>
+    </a>
+</div>

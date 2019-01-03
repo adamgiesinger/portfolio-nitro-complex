@@ -4,6 +4,14 @@
 	"description": "A project molecule",
 	"type": "object",
 	"properties": {
+		"project-name": {
+			"type": "string",
+			"description": "Name of the project"
+		},
+		"project-languages": {
+			"type": "string",
+			"description": "List with languages used in the project"
+		}
 	},
 	"dependencies": {}
 }

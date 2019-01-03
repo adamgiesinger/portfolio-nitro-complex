@@ -1,10 +1,6 @@
-$regular: 17px "Source Sans Pro",
-Arial,
-sans-serif;
+$regular: 17px "Source Sans Pro", Arial, sans-serif;
+
 .a-input-field {
-    &__span {
-        
-    }
     &__input {
         display: block;
         margin: 25px auto;
@@ -16,54 +12,22 @@ sans-serif;
         padding: 10px 10px;
         font: $regular;
         font-size: 13px;
-        resize: vertical;
+		resize: vertical;
+
         &::placeholder {
             font: $regular;
             text-transform: uppercase;
             letter-spacing: 2px;
             font-size: 11px;
-        }
+		}
+
         &:first-child {
             margin-top: 0;
             margin-bottom: 0;
         }
-        &[type=checkbox] {
-            display: none;
-            &:checked {
-                &+label.checkbox {
-                    &::after {
-                        opacity: 1;
-                    }
-                }
-            }
-        }
     }
-    label {
-        font-size: 14px;
-        cursor: pointer;
-        position: relative;
-    }
-    label.checkbox {
-        &::before {
-            height: 12px;
-            width: 12px;
-            border: 1px rgba(0, 0, 0, 0.3) solid;
-            display: inline-block;
-            content: '';
-            position: relative;
-            top: 2px;
-            margin-right: 7px;
-        }
-        &::after {
-            position: absolute;
-            display: block;
-            content: '';
-            width: 6px;
-            height: 6px;
-            background: rgba(0, 0, 0, 0.3);
-            opacity: 0;
-            left: 4px;
-            top: 6px;
-        }
-    }
+
+	&__label {
+        display: none;
+	}
 }

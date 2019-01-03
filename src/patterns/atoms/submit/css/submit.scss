@@ -1,9 +1,10 @@
+$black: #000000;
 $regular: 17px "Source Sans Pro",
 Arial,
 sans-serif;
 
 .a-submit {
-    button {
+    &__button {
         border: none;
         //border-bottom: 1px solid black;
         background: none;
@@ -12,14 +13,14 @@ sans-serif;
         font: $regular;
         font-size: 14px;
         margin-top: 30px;
-        position: absolute;
+        position: absolute; 
         left: 50%;
         transition: 0.5s all;
         transform: translateX(-50%);
         &:hover {
             color: #444444;
             &::after {
-                width: 110%;
+                width: 100%;
                 background-color: #444444;
             }
         }
@@ -34,8 +35,8 @@ sans-serif;
             position: absolute;
             left: 50%;
             transform: translateX(-50%);
-            background-color: black;
-            transition: 0.5s all ease-in-out;
+            background-color: $black;
+            transition: 0.3s all ease-in-out;
         }
     }
 }

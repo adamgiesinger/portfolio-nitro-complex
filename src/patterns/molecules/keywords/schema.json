@@ -1,0 +1,8 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"title": "keywords",
+	"description": "A keywords molecule",
+	"type": "object",
+	"properties": {},
+	"dependencies": {}
+}

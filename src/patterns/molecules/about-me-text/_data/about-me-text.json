@@ -1,12 +1,12 @@
 {
-    "information": [
-        {
-            "title": "Who am I?",
-            "text": "My name is Adam Giesinger, I'm 15 years old and I live in the City of St. Gallen, Switzerland. Developing and engineering software is one of my biggest hobbies. I also really enjoy playing football with some friends and playing video games."
-        },
-        {
-            "title": "My experience",
-            "text": "I've worked on many different projects, some of which you can check out on my GitHub profile. At the moment I am a trainee at Namics. I can contribute to many different projects there. I have the opportunity to create iOS apps, Drupal websites, Sitecore applications and many more things at Namics."
-        }
-    ]
+	"information": [
+		{
+			"title": "Who am I?",
+			"text": "My name is Adam Giesinger, I'm 15 years old and I live in the City of St. Gallen, Switzerland. Developing and engineering software is one of my biggest hobbies. I also really enjoy playing football with some friends and playing video games."
+		},
+		{
+			"title": "My experience",
+			"text": "I've worked on many different projects, some of which you can check out on my GitHub profile. At the moment I am a trainee at Namics. I can contribute to many different projects there. I have the opportunity to create iOS apps, Drupal websites, Sitecore applications and many more things at Namics."
+		}
+	]
 }

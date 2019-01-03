@@ -1,0 +1,10 @@
+<div class="a-keyword" data-t-name="Keyword">
+    {{#eq type "link"}}
+        <a class="a-keyword__link" style="cursor:pointer" href={{link}}><span>{{text}}</span>
+            <div class="a-keyword__link__bar"></div>
+        </a>
+    {{/eq}}
+    {{#eq type "text"}}
+        {{text}}
+    {{/eq}}
+</div>

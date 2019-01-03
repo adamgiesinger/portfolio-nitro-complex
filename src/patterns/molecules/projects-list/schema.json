@@ -3,7 +3,6 @@
 	"title": "projects-list",
 	"description": "A projects-list molecule",
 	"type": "object",
-	"properties": {
-	},
+	"properties": {},
 	"dependencies": {}
 }

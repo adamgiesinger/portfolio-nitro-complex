@@ -1,0 +1,20 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"title": "keyword",
+	"description": "A keyword atom",
+	"type": "object",
+	"properties": {
+		"type": {
+			"enum": ["link", "text"]
+		},
+		"text": {
+			"type": "string",
+			"description": "Text shown"
+		},
+		"link": {
+			"type": "string",
+			"description": "Target link when clicking text"
+		}
+	},
+	"dependencies": {}
+}

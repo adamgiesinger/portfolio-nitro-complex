@@ -4,6 +4,10 @@
 	"description": "A project-title atom",
 	"type": "object",
 	"properties": {
+		"project-title": {
+			"type": "string",
+			"description": "Name of the project"
+		}
 	},
 	"dependencies": {}
 }

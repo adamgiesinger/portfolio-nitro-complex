@@ -1,0 +1,8 @@
+<div class="m-keywords" data-t-name="Keywords">
+    {{#each keywords}}
+        {{pattern name="keyword" text=this type="text"}}
+    {{/each}}
+    {{#each links}}
+        {{pattern name="keyword" text=this.text type="link" link=this.link}}
+    {{/each}}
+</div>
