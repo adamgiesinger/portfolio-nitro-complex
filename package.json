@@ -63,7 +63,7 @@
     "handlebars": "4.0.14",
     "jquery": "3.4.0",
     "lazysizes": "4.1.5",
-    "lodash": "4.17.13",
+    "lodash": "4.17.21",
     "lottie-web": "5.4.2",
     "prevent-window-opener-attacks": "0.2.4",
     "svg4everybody": "2.1.9",
